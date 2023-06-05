@@ -1,0 +1,21 @@
+  425  git init
+  426  git remote add origin https://github.com/sjarmijos/20230605-SantiagoArmijos.git
+  427  touch comandos.txt main.js index.html
+  428  git add .
+  429  git commit -m "commit 01 de santiagoArmijos"
+  430  git push origin main
+  431  git branch feature
+  432  git branch
+  433  git checkout feature
+  434  mkdir Hardware Software SeguridadInformatica
+  435  touch Hardware/resumen.txt
+  436  touch SeguridadInformatica/resumen.txt
+  437  touch Software/resumen.txt
+  438  git add .
+  439  git commit -m "commit 02 de santiagoArmijos"
+  440  git push origin feature
+  441  git checkout main
+  442  mv main.js resumenHardware.txt
+  443  mv index.html resumenSoftware.txt
+  444  history 50 > comandos.txt
+

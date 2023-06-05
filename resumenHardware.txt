@@ -1,0 +1,4 @@
+Listar 3 memorias principales:
+1. RAM 
+2. Cache
+3. Registros
